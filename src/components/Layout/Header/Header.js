@@ -1,4 +1,4 @@
-import {AppBar, Box, Toolbar} from '@material-ui/core';
+import {AppBar} from '@material-ui/core';
 import React from 'react';
 import styles from './Header.css'
 
