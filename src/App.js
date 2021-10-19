@@ -1,14 +1,13 @@
 
 import Header from './components/Layout/Header/Header'
-import Footer from './components/Layout/Footer/Footer'
 import styles from './App.css';
+import Section from './components/Layout/Sections/Section';
 function App() {
   return (
-    <div className={styles.container}>
+    <>
        <Header />
-       <main></main>
-       {/* <Footer /> */}
-    </div>
+       <Section />
+    </>
   );
 }
 

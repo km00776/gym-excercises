@@ -1,13 +1,25 @@
 import {AppBar} from '@material-ui/core';
 import React from 'react';
-import styles from './Header.css'
+import './Header.css'
+import MenuIcon from '@material-ui/icons/Menu';
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
 
 
 const Header = () => {
+  // create a useState
+
+
   return(
     <header>
-       <AppBar style={{ height: "7%", backgroundColor: "rgb(14, 42, 71)" }}>
-          <h1 className={styles.heading}>Gym exercises</h1>
+       <AppBar elevation={0} style={{ height: "7%", backgroundColor: "#004ff0" }}>
+          <div className="full-heading">
+             <MenuIcon className="menu-icon" />
+              <div className="title-icon">
+                <img className="menu-logo" alt="squat" src="https://i.imgur.com/ilmD2vQ.png"></img>
+                <h2 className="menu-header">K-Workz</h2>
+              </div>
+              <AccountBoxIcon className="menu-account-box-icon" />
+          </div>
        </AppBar>
     </header>
   )
