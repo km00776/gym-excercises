@@ -11,7 +11,7 @@ const Header = () => {
 
   return(
     <header>
-       <AppBar elevation={0} style={{ height: "7%", backgroundColor: "#004ff0" }}>
+       <AppBar elevation={0} style={{ height: "7%", backgroundImage: `linear-gradient( rgba(0, 79, 240, 3), rgba(0, 79, 240, 3))`}}>
           <div className="full-heading">
              <MenuIcon className="menu-icon" />
               <div className="title-icon">

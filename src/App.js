@@ -1,12 +1,13 @@
-
-import Header from './components/Layout/Header/Header'
-import styles from './App.css';
-import Section from './components/Layout/Sections/Section';
-function App() {
+import Header from './components/Layout/Header/Header';
+import Section from './components/Layout/Pages/HomePage/HomePage';
+import './App.css'
+function App () {
   return (
     <>
-       <Header />
-       <Section />
+      
+        <Header />
+        <Section />
+      
     </>
   );
 }
