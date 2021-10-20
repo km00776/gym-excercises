@@ -9,14 +9,14 @@ const HomePage = () => {
       </header>
       <body>
         <h2 className="subheading">
-          'There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...';
+          lorem Ipsum is lorem Ipsum lorem Ipsum is simply dummy text.
         </h2>
         <div className="button-container">
           <CustomButton color="#FF1744" text="Find Exercises" />
         </div>
         <div className="image-container">
           <img
-            style={{float: 'right', marginTop: '200px'}}
+         
             alt="gymdude"
             src="https://i.imgur.com/Wzxmx3j.png"
           />

@@ -35,3 +35,12 @@ h2.subheading {
     color: #fff;
     font-weight: 400;
 }
+
+div.image-container {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   width: 100%;
+
+}
