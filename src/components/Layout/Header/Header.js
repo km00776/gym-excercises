@@ -66,9 +66,9 @@ const Header = () => {
             onClick={handleDrawerOpen}
             edge="start"
             sx={{ mr: 1, ...(open && { display: 'none' }) }}
-           
+            className="menu-icon"
           > 
-             <MenuIcon className="menu-icon" />
+             <MenuIcon  />
              </IconButton>
               <div className="title-icon">
                 <img className="menu-logo" alt="squat" src="https://i.imgur.com/ilmD2vQ.png"></img>
